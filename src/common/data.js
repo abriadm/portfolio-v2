@@ -25,3 +25,22 @@ export const projects = [
         p: "Hamburger Restaurant"
     },
 ];
+
+export const skills = [
+    {
+        id: 0,
+        skill: "HTML"
+    },
+    {
+        id: 1,
+        skill: "CSS"
+    },
+    {
+        id: 2,
+        skill: "JavaScript"
+    },
+    {
+        id: 3,
+        skill: "Tailwind CSS"
+    },
+]

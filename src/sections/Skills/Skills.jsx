@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './SkillsStyle.module.css'
 import { skills } from '../../common/data'
 import SkillList from '../../common/SkillList'

@@ -1,13 +1,12 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from "../../assets/profile-3.jpeg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
-import twitterLight from "../../assets/twitter-light.svg";
-import twitterDark from "../../assets/twitter-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
+import { FaInstagram } from "react-icons/fa";
 import cv from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
@@ -15,7 +14,6 @@ function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === "light" ? sun : moon;
-  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
@@ -38,13 +36,13 @@ function Hero() {
         </h1>
         <h2>Web Developer</h2>
         <span>
-          <a href="#" target="_blank">
-            <img src={twitterIcon} alt="Twitter Icon" />
+          <a href="https://www.instagram.com/strzqper" target="_blank">
+            {theme === 'light' ? <FaInstagram className={styles.ig} /> : <FaInstagram className={styles.ig2} />}
           </a>
-          <a href="#" target="_blank">
+          <a href="https://github.com/abriadm" target="_blank">
             <img src={githubIcon} alt="Github Icon" />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://www.linkedin.com/in/abriansyahadam/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin Icon" />
           </a>
         </span>

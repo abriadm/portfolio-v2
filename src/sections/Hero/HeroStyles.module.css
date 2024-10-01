@@ -9,6 +9,8 @@
 
   .hero {
     max-width: 200px;
+    width: 100%;
+    border-radius: 50%;
   }
 
   span {
@@ -75,6 +77,16 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  .ig {
+    font-size: 27px;
+    color: #222;
+  }
+
+  .ig2 {
+    color: white;
+    font-size: 27px;
+  }
 }
 
 @media (width >= 800px) {

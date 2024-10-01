@@ -1,29 +1,45 @@
-import hipsster from '../assets/hipsster.png';
-import viberr from '../assets/viberr.png';
-import freshBurger from '../assets/fresh-burger.png';
+import diary from "../assets/Diarys.png"
+import kmti from "../assets/kmti.png"
+import blog from "../assets/blog.png"
+import mit from "../assets/mit.png"
+import visped from "../assets/visped.png"
 
 export const projects = [
     {
         id: 0,
-        src: hipsster,
-        link: "https://github.com/Ade-mir/company-landing-page-2",
-        h3: "Hipsster",
-        p: "Glasses Shop"
+        src: diary,
+        link: "https://diary-9ms5jro8r-abriadms-projects.vercel.app/",
+        h3: "Diarys",
+        p: "Konselor Sebaya"
     },
     {
         id: 1,
-        src: viberr,
-        link: "https://github.com/Ade-mir/company-landing-page-2",
-        h3: "Viberr",
-        p: "Streaming App"
+        src: kmti,
+        link: "https://kmti.tech/",
+        h3: "KMTI",
+        p: "Website KMTI"
     },
     {
         id: 2,
-        src: freshBurger,
-        link: "https://github.com/Ade-mir/company-landing-page-2",
-        h3: "Fresh Burger",
-        p: "Hamburger Restaurant"
+        src: blog,
+        link: "https://github.com/abriadm/Laravel-Blog.git",
+        h3: "Blog App",
+        p: "Blog IT Research"
     },
+    {
+        id: 3,
+        src: mit,
+        link: "https://mitopencourse-pdw-c.vercel.app/",
+        h3: "MIT Course",
+        p: "Online Course by MIT"
+    },
+    {
+        id: 4,
+        src: visped,
+        link: "https://client-1-portofolio.vercel.app/",
+        h3: "Visual Pedia",
+        p: "Production House"
+    }
 ];
 
 export const skills = [
@@ -43,4 +59,16 @@ export const skills = [
         id: 3,
         skill: "Tailwind CSS"
     },
+    {
+        id: 4,
+        skill: "Laravel"
+    },
+    {
+        id: 5,
+        skill: "PHP"
+    },
+    {
+        id: 6,
+        skill: "ReactJs"
+    }
 ]
